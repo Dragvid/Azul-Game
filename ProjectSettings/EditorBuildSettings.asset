@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/0-LevelZero.unity
+    guid: 8d4c1b61da81d494e935151afbb85cb7
+  - enabled: 1
+    path: Assets/Scenes/1-LevelMain.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/2-LevelLogin.unity
+    guid: 973cb603ee6429b42a4835a1e41ba430
+  - enabled: 1
+    path: Assets/Scenes/3-LevelRooms.unity
+    guid: 4d37af729ecb2184bb98887802ce9515
+  - enabled: 1
+    path: Assets/Scenes/4-LevelUserManagement.unity
+    guid: e631bd25a029700488d7dffca2ba43f2
+  - enabled: 1
+    path: Assets/Scenes/5-LevelSupportUs.unity
+    guid: 353bea48b27d57349b70259ff50ed9e5
+  - enabled: 1
+    path: Assets/Scenes/6-LevelStartingScreen.unity
+    guid: 67dc16c38f2b9fe4fbe973ac8deb2497
+  - enabled: 1
+    path: Assets/Scenes/7-LevelTutorial.unity
+    guid: 4e5887553bdf7c7478ef4a0162ce64a6
+  - enabled: 1
+    path: Assets/Scenes/8-LevelGame.unity
+    guid: 892c1aa82510ca6449e66c3de3e9e615
+  - enabled: 1
+    path: Assets/Scenes/9-LevelLeaderboard.unity
+    guid: fa6ccb45bde7154428cbd6dfa39d5962
+  m_configObjects: {}
