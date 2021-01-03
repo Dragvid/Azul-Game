@@ -91,6 +91,8 @@ GameObject:
   - component: {fileID: 936865652854736774}
   - component: {fileID: 936865652854736793}
   - component: {fileID: 936865652854736792}
+  - component: {fileID: 4952219339240755566}
+  - component: {fileID: 6819207596582439596}
   m_Layer: 5
   m_Name: Red Piece
   m_TagString: Untagged
@@ -199,3 +201,27 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4952219339240755566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936865652854736794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874663bad4b7ad44794089db4c7a25fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &6819207596582439596
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936865652854736794}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

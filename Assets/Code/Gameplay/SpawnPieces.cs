@@ -31,27 +31,6 @@ public class SpawnPieces : MonoBehaviour
             Debug.Log("color random: " + colorRandom);
             var piece = Instantiate(pieces[colorRandom], spawnOrigin[i].transform.position, Quaternion.identity);
             piece.transform.parent = gameObject.transform;
-            /*switch (colorRandom)
-            {
-                case 4:
-                    //yellow
-                    Instantiate(pieces[colorRandom], spawnOrigin[i].transform.position, Quaternion.identity);
-                    break;
-                case 3:
-                    //brown
-                    break;
-                case 2:
-                    //white
-                    break;
-                case 1:
-                    //azul
-                    break;
-                case 0:
-                    //red
-                    break;
-                default:
-                    break;
-            }*/
         }
         turnStart = false;
     }
